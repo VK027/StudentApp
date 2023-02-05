@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_layout"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/padding_4dp"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_8dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/text_main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding_2dp"
+                android:fontFamily="@font/sfuitext_regularg2"
+                android:padding="@dimen/padding_4dp"
+                android:text="@string/text_otp_enter"
+                android:textColor="@color/default_text_color"
+                android:textSize="@dimen/text_size_18sp" />
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/text_selected_email_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding_4dp"
+                android:fontFamily="@font/sfuitext_regular"
+                android:padding="@dimen/padding_4dp"
+                android:text=""
+                android:textColor="@color/default_text_color"
+                android:textSize="@dimen/text_size_14sp" />
+
+            <com.vk.studentapp.custom.pinentry.PinEntryView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pin_entry_view"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/padding_12dp"
+                app:digitBackground="@drawable/background_border"
+                app:digitHeight="@dimen/padding_50dp"
+                app:digitTextColor="@color/default_main_color"
+                app:digitTextSize="@dimen/text_size_22sp"
+                app:digitWidth="@dimen/padding_50dp"
+                app:mask=""
+                app:pinInputType="number" />
+            <!-- app:numDigits="6"
+ app:digitSpacing="4dp"-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_20dp"
+                android:padding="@dimen/padding_8dp"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/login_otp_resend_timer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sfuitext_regular"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:textColor="@color/red_text_color"
+                    android:textSize="@dimen/text_size_12sp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/text_resend_otp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/sfuitext_semibold"
+                    android:gravity="center"
+                    android:padding="@dimen/padding_4dp"
+                    android:text="@string/text_resend_otp"
+                    android:textColor="@color/red_text_color"
+                    android:textSize="@dimen/text_size_12sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+    <include
+        layout="@layout/layout_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/padding_4dp"
+        android:padding="@dimen/padding_2dp" />
+
+
+</RelativeLayout>

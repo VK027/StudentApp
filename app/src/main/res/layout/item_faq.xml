@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/padding_10dp"
+        android:layout_marginTop="@dimen/padding_10dp"
+        android:layout_marginEnd="@dimen/padding_4dp"
+        android:layout_marginBottom="@dimen/padding_6dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="@dimen/padding_50dp"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/faq_question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:fontFamily="@font/sfuitext_regularg2"
+                android:gravity="start"
+                android:justificationMode="inter_word"
+                android:minLines="2"
+                android:text=""
+                android:textAlignment="viewStart"
+                android:textColor="@color/default_text_color"
+                android:textSize="@dimen/text_size_12sp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/faq_answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="@dimen/padding_10dp"
+                android:layout_marginEnd="@dimen/padding_10dp"
+                android:fontFamily="@font/sfuitext_regular"
+                android:gravity="start"
+                android:justificationMode="inter_word"
+                android:minLines="2"
+                android:text=""
+                android:textAlignment="viewStart"
+                android:textColor="@color/disabled_color"
+                android:textSize="@dimen/text_size_12sp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/image_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_margin="@dimen/padding_4dp"
+            android:padding="@dimen/padding_4dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_yellow_forward_arrow" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/image_uparrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_margin="@dimen/padding_4dp"
+            android:padding="@dimen/padding_4dp"
+            android:src="@drawable/yellow_up_arrow"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view_liner"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/padding_2dp"
+        android:layout_marginStart="@dimen/padding_10dp"
+        android:layout_marginTop="@dimen/padding_2dp"
+        android:layout_marginEnd="@dimen/padding_60dp"
+        android:layout_marginBottom="@dimen/padding_4dp"
+        android:background="@drawable/view_home_line" />
+
+</LinearLayout>

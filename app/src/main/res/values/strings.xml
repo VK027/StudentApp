@@ -1,0 +1,163 @@
+<resources>
+    <string name="app_name">Student App</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+
+    <string name="text_splash">Welcome to NeoApp</string>
+
+    <string name="error_internet_unavailable">Internet is not available, Please cross check your internet connectivity and try again</string>
+    <string name="retry">Retry</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="request_failed">Request Failed</string>
+
+    <string name="text_welcome">Welcome!</string>
+    <string name="text_next">Next</string>
+    <string name="text_sign">Sign in, to continue to your account</string>
+    <string name="text_create_account">Create an account to get started</string>
+
+    <string name="text_input_email">Enter Email ID</string>
+    <string name="text_input_mobile">Enter Mobile Number</string>
+    <string name="text_email_mobile">Registered Email or Mobile Number</string>
+    <string name="text_new_user">New User?</string>
+
+    <string name="text_otp_enter">Enter the OTP sent to</string>
+    <string name="text_resend_otp">Resend OTP</string>
+
+    <string name="text_invalid_email">Invalid Email</string>
+    <string name="text_invalid_mobile">Invalid Mobile Number</string>
+
+    <string name="api_key">AIzaSyB05Gmfylkajk-XxVJM13nAr5BihWcAyxw</string>
+    <string name="api_auth_client_key">363481084322-0chqklidi5f4i9g0iuoglab3qsds8p92.apps.googleusercontent.com</string>
+
+
+    <string name="text_terms_conditions">Terms and Conditions</string>
+    <string name="text_isolation_personal_space">Isolation at Personal Space</string>
+    <string name="text_isolation_university_space">Isolation at University Space</string>
+
+    <string name="text_home">Home</string>
+    <string name="text_chat">Chat</string>
+    <string name="text_support">Support</string>
+    <string name="text_profile">Profile</string>
+
+    <string name="address">27 King’s College Circle,\nToronto ON M5S 1A1 \nToronto Ontario</string>
+    <string name="know_more">KNOW MORE</string>
+    <string name="updates">UPDATES</string>
+    <string name="courses">COURSES</string>
+    <string name="photocount">57 \nPhotos</string>
+    <string name="overview">OVERVIEW</string>
+    <string name="faq">FAQ</string>
+    <string name="type">Type</string>
+    <string name="text_private">PRIVATE</string>
+    <string name="scholarship">Scholarship</string>
+    <string name="yes">Yes</string>
+    <string name="in_take">Intake</string>
+    <string name="sept_oct">SEPT/OCT</string>
+    <string name="year_of_establish">Year of Establishment: </string>
+    <string name="website">Website: </string>
+    <string name="contact_number">Contact Number: </string>
+    <string name="accomdation">Accommodation: </string>
+    <string name="acceptance_criteria">Acceptance Criteria: </string>
+    <string name="staff">Staff: </string>
+    <string name="view_more">View More</string>
+
+    <string name="text_personal">Personal</string>
+    <string name="text_program">Program</string>
+    <string name="text_travel">Travel</string>
+    <string name="text_review">Review</string>
+    <string name="text_submit">Submit</string>
+
+    <string name="dummy_text">Lorem ipsum is a name for a common type of placeholder text. Also known as filler or dummy text, this is simply copy that serves to fill a space without actually saying anything meaningful. It\'s essentially nonsense text, but gives an idea of what real words will look like in the final product.</string>
+    <string name="question">What type of visa do i need to become an academic student in Canada?</string>
+    <string name="answer">You need to appy for a Tier 4 general Visa which is applicable for any individual having attained the age of 16 years and above. Apart from this you also need to pay a surcharge of 150pounds per year for both domestic and inetrnational students.</string>
+
+    <string name="first_name">First Name<font color="#FFF995AB"> *</font></string>
+    <string name="firstname">First Name</string>
+    <string name="last_name">Last Name<font color="#FFF995AB"> *</font></string>
+    <string name="lastname">Last Name</string>
+    <string name="email_id">Email ID<font color="#FFF995AB"> *</font></string>
+    <string name="emailid">Email ID</string>
+    <string name="mobile_number">Mobile Number<font color="#FFF995AB"> *</font></string>
+    <string name="mobilenumber">Mobile Number</string>
+    <string name="gender">Gender<font color="#FFF995AB"> *</font></string>
+    <string name="date_of_birth">Date Of Birth<font color="#FFF995AB"> *</font></string>
+    <string name="country_of_origin">Country Of Origin<font color="#FFF995AB"> *</font></string>
+    <string name="Dateof_birth">dd/mm/yyyy</string>
+    <string name="permanent_address">Permanent Address<font color="#FFF995AB"> *</font></string>
+    <string name="Address">Address</string>
+    <string name="state">State<font color="#FFF995AB"> *</font></string>
+    <string name="postal_code">Postal Code<font color="#FFF995AB"> *</font></string>
+    <string name="postalcode">Postal Code</string>
+    <string name="postal_address">Permanent Address same as Current Address?</string>
+    <string name="no">No</string>
+    <string name="current_address">Current Address<font color="#FFF995AB"> *</font></string>
+    <string name="university_campus">University Campus<font color="#FFF995AB"> *</font></string>
+    <string name="program_applied_to">Program Applied To<font color="#FFF995AB"> *</font></string>
+    <string name="program_intake">Program Intake<font color="#FFF995AB"> *</font></string>
+    <string name="program_name">Program Name</string>
+    <string name="programintake">Program Intake</string>
+    <string name="student_number">Student Number<font color="#FFF995AB"> *</font></string>
+    <string name="number">Number</string>
+    <string name="visa_date">Visa Issuance Date<font color="#FFF995AB"> *</font></string>
+    <string name="are_you_travel">Are you travelling by self?</string>
+    <string name="accompained_family">Accompained by Family member?</string>
+    <string name="noof_family">Number of family members</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="require">Do you or any co-arriving members require any  special accommodations to address a documented disability , functional limitation, or special need?</string>
+    <string name="mode_of_transport">Mode of Transport<font color="#FFF995AB"> *</font></string>
+    <string name="airlines">Airlines<font color="#FFF995AB"> *</font></string>
+    <string name="airlines_name">Airlines Name</string>
+    <string name="departure_country">Departure Country<font color="#FFF995AB"> *</font></string>
+    <string name="departure_city">Departure City<font color="#FFF995AB"> *</font></string>
+    <string name="departure_date">Departure Date<font color="#FFF995AB"> *</font></string>
+    <string name="departure_time">Departure Time<font color="#FFF995AB"> *</font></string>
+    <string name="do_you_have_fligths">Do you have any connecting flights ?</string>
+    <string name="noof_flights">Number of connecting flights<font color="#FFF995AB"> *</font></string>
+    <string name="city">City<font color="#FFF995AB"> *</font></string>
+    <string name="arrival_country">Arrival Country<font color="#FFF995AB"> *</font></string>
+    <string name="arrival_city">Arrival City<font color="#FFF995AB"> *</font></string>
+    <string name="hotel_name">Hotel Name<font color="#FFF995AB"> *</font></string>
+    <string name="hotelname">Hotel Name</string>
+    <string name="hotel_address">Hotel Address<font color="#FFF995AB"> *</font></string>
+    <string name="hoteladdress">Hotel Address</string>
+    <string name="hotel_number">Hotel Contact Number<font color="#FFF995AB"> *</font></string>
+    <string name="final_arrival_city">Final Arrival City<font color="#FFF995AB"> *</font></string>
+    <string name="final_transport">Final Transport Mode</string>
+    <string name="transport_number">Transport Number<font color="#FFF995AB"> *</font></string>
+    <string name="modeof_transport">Mode of Transport</string>
+    <string name="any_information">Any Additional information</string>
+    <string name="isolation_at_place">Isolation at Personal Space?</string>
+    <string name="isolation_address">Isolation Address</string>
+    <string name="isolation_city">Isolation City</string>
+    <string name="secondary_contact">Secondary Contact<font color="#FFF995AB"> *</font></string>
+    <string name="accept_terms">Accept arrival Services Terms and Conditions</string>
+    <string name="signature">Signature</string>
+    <string name="text_details">The University will get in touch with you for further details<font color="#FFF995AB"> *</font></string>
+    <string name="upload_document_proofs">Upload Document of Proof<font color="#FFF995AB"> *</font></string>
+    <string name="hint_clear">clear</string>
+    <string name="hint_save">Save</string>
+    <string name="hint_cancel">Cancel</string>
+    <string name="dialog_title">Make Signature</string>
+    <string name="different_country">Are you travelling to a different country?</string>
+    <string name="country">Country 1</string>
+    <string name="city1">City 1</string>
+    <string name="please_include">(Please include all countries/cities based on your stopovers flights)</string>
+    <string name="room_number">Room Number<font color="#FFF995AB"> *</font></string>
+    <string name="roomnumber">Room Number</string>
+    <string name="univeristy">(Your final arrival City)</string>
+    <string name="city_of_university">City of University</string>
+    <string name="final_mode_transport">(Your final mode of transport)</string>
+    <string name="student_lontext">Dear Students,  As summer 2021 semester programs and courses are primarily being delivered remotely/online, we are committed to continuing to provide many online services to support your academic and personal success. We will work hard to meet your needs by phone, online and using tools such as Blackboard or Microsoft Teams to maintain a virtual, personal connection.</string>
+    <string name="search">Search</string>
+    <string name="apply">Apply</string>
+
+</resources>
