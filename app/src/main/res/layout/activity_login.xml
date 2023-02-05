@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_8dp"
+    tools:context=".presentation.login.LoginActivity">
+
+    <include
+        android:id="@+id/top_layout"
+        layout="@layout/layout_welcome_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/padding_50dp" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/layout_bottom"
+        android:layout_below="@+id/top_layout"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/padding_20dp"
+        android:layout_marginBottom="@dimen/padding_4dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_8dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/text_tag_style"
+                android:text="@string/text_email_mobile"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/text_main" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="@dimen/padding_2dp"
+                android:layout_weight="1"
+                android:background="@drawable/background_border"
+                android:orientation="horizontal"
+                android:padding="@dimen/padding_4dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/logo">
+
+                <com.rilixtech.widget.countrycodepicker.CountryCodePicker
+                    android:id="@+id/code_mob_spinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/padding_4dp"
+                    android:gravity="center"
+                    android:padding="@dimen/padding_4dp"
+                    android:textAlignment="center"
+                    android:visibility="gone"
+                    app:ccp_arrowSize="@dimen/padding_24dp"
+                    app:ccp_hideNameCode="true"
+                    app:ccp_showFlag="false"
+                    app:ccp_textColor="@color/disabled_color"
+                    app:ccp_textSize="@dimen/text_size_14sp" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/email_mobile_edit_text"
+                    style="@style/edit_text_style"
+                    android:importantForAutofill="no"
+                    android:inputType="textEmailAddress|textNoSuggestions" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/text_error"
+                    style="@style/text_base_style"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="start"
+                    android:text=""
+                    android:textColor="@color/red_text_color"
+                    android:visibility="gone" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/text_new_user"
+                    style="@style/text_base_style"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerInParent="true"
+                    android:gravity="end"
+                    android:text="@string/text_new_user"
+                    android:textColor="@color/yellow_text_color" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <include
+        layout="@layout/layout_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/padding_4dp"
+        android:padding="@dimen/padding_2dp" />
+
+    <!--<LinearLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/padding_30dp"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_4dp">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:padding="@dimen/padding_20dp"
+            android:background="@drawable/next_button"
+            android:src="@drawable/front_arrow" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_next"
+            android:textColor="@color/default_text_color"
+            android:textSize="@dimen/text_size_14sp" />
+
+    </LinearLayout>-->
+
+</RelativeLayout>

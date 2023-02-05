@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".presentation.home.activities.UniversityDetailAct">
+
+    <include
+        android:id="@+id/home_toolbar"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--top view-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="@dimen/padding_10dp"
+                    android:layout_alignParentTop="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:fontFamily="@font/sfuitext_regularg2"
+                        android:maxLines="1"
+                        android:minLines="1"
+                        android:singleLine="true"
+                        android:textSize="@dimen/text_size_20sp"
+                        android:text="University of Toronto"
+                        android:textColor="@color/default_text_color" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:fontFamily="@font/sfuitext_regular"
+                        android:maxLines="1"
+                        android:minLines="1"
+                        android:singleLine="true"
+                        android:text="Toronto Ontario"
+                        android:textColor="@color/default_text_color"
+                        android:textSize="@dimen/text_size_12sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <androidx.appcompat.widget.AppCompatRatingBar
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:numStars="5"
+                            style="@style/RatingBar"
+                            android:rating="4.6"
+                            android:theme="@style/RatingBar"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="5dp"
+                            android:fontFamily="@font/sfuitext_regular"
+                            android:text="4.6"
+                            android:textColor="@color/default_text_color"
+                            android:textSize="@dimen/text_size_14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="@dimen/padding_100dp"
+                            android:layout_height="@dimen/padding_60dp"
+                            android:layout_gravity="center"
+                            android:scaleType="fitXY"
+                            android:tint="@color/image_tint_color"
+                            android:src="@drawable/default_university"
+                            tools:ignore="UseAppTint" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center"
+                            android:layout_marginStart="@dimen/padding_15dp"
+                            android:fontFamily="@font/sfuitext_regular"
+                            android:gravity="start|center"
+                            android:maxLines="2"
+                            android:minLines="2"
+                            android:text="@string/photocount"
+                            android:textColor="@color/white" />
+                    </FrameLayout>
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end|center"
+                        android:paddingStart="@dimen/padding_30dp"
+                        android:paddingEnd="@dimen/padding_30dp"
+                        android:paddingTop="@dimen/padding_20dp"
+                        android:paddingBottom="@dimen/padding_20dp"
+                        android:layout_marginTop="@dimen/padding_10dp"
+                        android:layout_marginBottom="@dimen/padding_8dp"
+                        android:background="@drawable/ic_phone_icon" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <!--tablayout-->
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tabLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding_10dp"
+                android:background="@drawable/type_background"
+                app:tabBackground="@drawable/home_tabs"
+                app:tabGravity="fill"
+                android:elevation="@dimen/padding_8dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                app:tabIndicatorHeight="0dp"
+                app:tabMode="fixed"
+                app:tabSelectedTextColor="@color/white"
+                app:tabTextAppearance="@style/CustomTabText">
+            </com.google.android.material.tabs.TabLayout>
+
+
+            <com.vk.studentapp.custom.NonSwipeableViewPager
+                android:id="@+id/pager"
+                android:layout_width="match_parent"
+                android:layout_height="500dp" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
