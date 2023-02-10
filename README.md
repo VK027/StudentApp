@@ -19,7 +19,12 @@ The below screenshots are captured from an android emulator.
 | University On-Boarding Process                                                                                                 |                                                                                                                                |                                                                                                                                |
 |--------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 | <img src="https://user-images.githubusercontent.com/64703334/218138050-674614f6-7d58-4ae6-8c86-c9dfedc0b2ac.jpeg" width="270"> | <img src="https://user-images.githubusercontent.com/64703334/218138054-b8e3af02-f154-40a6-a64e-24c5fd1faa4c.jpeg" width="270"> | <img src="https://user-images.githubusercontent.com/64703334/218138056-109bf0d2-7d17-4395-a813-cd6816fd15e6.jpeg" width="270"> |
-| <img src="https://user-images.githubusercontent.com/64703334/218138060-d003cd0a-10fd-494d-9218-c8de99ccbd8e.jpeg" width="270"> | <img src="https://user-images.githubusercontent.com/64703334/218138066-7f09fd6b-cfbc-495a-a738-48941ec50881.jpeg" width="270"> | <img src="https://user-images.githubusercontent.com/64703334/218138056-109bf0d2-7d17-4395-a813-cd6816fd15e6.jpeg" width="270"> |
+| <img src="https://user-images.githubusercontent.com/64703334/218138060-d003cd0a-10fd-494d-9218-c8de99ccbd8e.jpeg" width="270"> | <img src="https://user-images.githubusercontent.com/64703334/218138066-7f09fd6b-cfbc-495a-a738-48941ec50881.jpeg" width="270"> | <img src="https://user-images.githubusercontent.com/64703334/218142302-c96b8966-db29-48aa-92dd-58e85191b5ab.jpeg" width="270"> |
+
+| In-Detail Screens                                                                                                             |                                                                                                                                |                                                                                                                                | 
+|-------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
+| <img src="https://user-images.githubusercontent.com/64703334/218143750-cb369edd-ff0a-4f8e-8ebd-4c172466de88.jpeg" width="270"> | <img src="https://user-images.githubusercontent.com/64703334/218143757-735d66b1-f6b4-4b8f-8216-c7ead2ab5ecc.jpeg" width="270"> | <img src="https://user-images.githubusercontent.com/64703334/218143761-9549d729-0fb5-4ae7-9a4f-51abc578aeb2.jpeg" width="270"> |
+| <img src="https://user-images.githubusercontent.com/64703334/218143766-205e305c-0084-44d1-8d74-b7cdc7a9b1e7.jpeg" width="270"> | <img src="https://user-images.githubusercontent.com/64703334/218143775-8f75547d-6e7c-4116-ac36-01baeaaf41a7.jpeg" width="270"> |  |
 
 
 [//]: # ()
@@ -41,10 +46,6 @@ The below screenshots are captured from an android emulator.
 
 [//]: # ()
 [//]: # (|<img src="screenshots/5.png" width="300">|<img src="screenshots/6.png" width="300">|)
-
-##University On-Boarding
-![06](https://user-images.githubusercontent.com/64703334/218138050-674614f6-7d58-4ae6-8c86-c9dfedc0b2ac.jpeg)|![07](https://user-images.githubusercontent.com/64703334/218138054-b8e3af02-f154-40a6-a64e-24c5fd1faa4c.jpeg)|![08](https://user-images.githubusercontent.com/64703334/218138056-109bf0d2-7d17-4395-a813-cd6816fd15e6.jpeg)
-|![09](https://user-images.githubusercontent.com/64703334/218138060-d003cd0a-10fd-494d-9218-c8de99ccbd8e.jpeg)![10](https://user-images.githubusercontent.com/64703334/218138066-7f09fd6b-cfbc-495a-a738-48941ec50881.jpeg)
 
 # ☕️ Donate
 <a href=""><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="60"></a>
