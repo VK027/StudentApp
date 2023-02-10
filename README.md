@@ -1,6 +1,5 @@
 # StudentUniversityApp
-
-A Android UI template for a Student-University App
+An Android UI template model for a Student-University app, with the intention of providing the app for students who are all trying to get their education abroad places like Canada,Uk,etc from any location.
 
 # 📸 Screenshots
 The below screenshots are captured from an android emulator.
@@ -26,26 +25,6 @@ The below screenshots are captured from an android emulator.
 | <img src="https://user-images.githubusercontent.com/64703334/218143750-cb369edd-ff0a-4f8e-8ebd-4c172466de88.jpeg" width="270"> | <img src="https://user-images.githubusercontent.com/64703334/218143757-735d66b1-f6b4-4b8f-8216-c7ead2ab5ecc.jpeg" width="270"> | <img src="https://user-images.githubusercontent.com/64703334/218143761-9549d729-0fb5-4ae7-9a4f-51abc578aeb2.jpeg" width="270"> |
 | <img src="https://user-images.githubusercontent.com/64703334/218143766-205e305c-0084-44d1-8d74-b7cdc7a9b1e7.jpeg" width="270"> | <img src="https://user-images.githubusercontent.com/64703334/218143775-8f75547d-6e7c-4116-ac36-01baeaaf41a7.jpeg" width="270"> |  |
 
-
-[//]: # ()
-[//]: # (| 3 | 4|)
-
-[//]: # ()
-[//]: # (|------|-------|)
-
-[//]: # ()
-[//]: # (|<img src="screenshots/3.png" width="300">|<img src="screenshots/4.png" width="300">|)
-
-[//]: # ()
-[//]: # ()
-[//]: # ()
-[//]: # (| 5 | 6|)
-
-[//]: # ()
-[//]: # (|------|-------|)
-
-[//]: # ()
-[//]: # (|<img src="screenshots/5.png" width="300">|<img src="screenshots/6.png" width="300">|)
 
 # ☕️ Donate
 <a href=""><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="60"></a>
