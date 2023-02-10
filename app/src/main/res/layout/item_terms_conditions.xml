@@ -41,7 +41,7 @@
                 android:layout_margin="@dimen/padding_2dp"
                 android:fontFamily="@font/sfuitext_regularg2"
                 android:padding="@dimen/padding_2dp"
-                android:text="hjkhjkhkhku"
+                android:text=""
                 android:textColor="@color/default_text_color"
                 android:textSize="@dimen/text_size_10sp" />
 

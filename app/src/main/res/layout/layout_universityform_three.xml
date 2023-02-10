@@ -30,8 +30,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:layout_marginTop="@dimen/padding_4dp"
+            android:contentDescription="@string/app_name"
             android:gravity="start"
             android:imeOptions="actionNext"
+            android:minHeight="48dp"
             android:textSize="@dimen/text_size_12sp" />
     </LinearLayout>
 
@@ -61,11 +63,12 @@
             android:layout_gravity="start"
             android:layout_marginTop="@dimen/padding_4dp"
             android:gravity="start"
-            android:minLines="1"
-            android:singleLine="true"
             android:hint="@string/program_name"
             android:imeOptions="actionNext"
             android:inputType="text"
+            android:minHeight="48dp"
+            android:minLines="1"
+            android:singleLine="true"
             android:textSize="@dimen/text_size_12sp" />
     </LinearLayout>
 
@@ -94,12 +97,13 @@
             android:layout_height="wrap_content"
             android:layout_gravity="start"
             android:layout_marginTop="@dimen/padding_4dp"
-            android:minLines="1"
-            android:singleLine="true"
             android:gravity="start"
             android:hint="@string/programintake"
             android:imeOptions="actionNext"
             android:inputType="text"
+            android:minHeight="48dp"
+            android:minLines="1"
+            android:singleLine="true"
             android:textSize="@dimen/text_size_12sp" />
     </LinearLayout>
 
@@ -130,10 +134,11 @@
             android:layout_marginTop="@dimen/padding_4dp"
             android:gravity="start"
             android:hint="@string/number"
-            android:minLines="1"
-            android:singleLine="true"
             android:imeOptions="actionNext"
             android:inputType="text"
+            android:minHeight="48dp"
+            android:minLines="1"
+            android:singleLine="true"
             android:textSize="@dimen/text_size_12sp" />
     </LinearLayout>
 
@@ -164,11 +169,12 @@
             android:layout_marginTop="@dimen/padding_4dp"
             android:drawableEnd="@drawable/ic_calender"
             android:drawablePadding="@dimen/padding_8dp"
-            android:minLines="1"
-            android:singleLine="true"
             android:gravity="start"
             android:hint="@string/Dateof_birth"
             android:imeOptions="actionDone"
+            android:minHeight="48dp"
+            android:minLines="1"
+            android:singleLine="true"
             android:textSize="@dimen/text_size_12sp" />
     </LinearLayout>
 

@@ -138,8 +138,7 @@
                 android:inputType="textMultiLine"
                 android:singleLine="false"
                 android:textColorHint="#c4c0bd"
-                android:textSize="18sp"
-                android:layout_marginLeft="4dp" />
+                android:textSize="18sp" />
 
         </LinearLayout>
 

@@ -117,7 +117,7 @@ public class CoursesFragment extends Fragment {
 
         chipGroup.setOnCheckedChangeListener(new ChipGroup.OnCheckedChangeListener() {
             @Override
-            public void onCheckedChanged(ChipGroup group, int checkedId) {
+            public void onCheckedChanged(@NonNull ChipGroup group, int checkedId) {
                 Chip selectedChip = group.findViewById(checkedId);
                 Log.e("id_error", String.valueOf(checkedId));
                 if (selectedChip != null) {

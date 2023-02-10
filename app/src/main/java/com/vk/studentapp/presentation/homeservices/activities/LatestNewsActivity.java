@@ -35,7 +35,7 @@ public class LatestNewsActivity extends BaseActivity {
         heading_text = findViewById(R.id.heading_text);
         rv_latest_news = findViewById(R.id.rv_latest_news);
 
-        heading_text.setText("Latest New and Updates");
+        heading_text.setText(R.string.latest_news_update);
 
         //set Data To AdAPTER
         setDataToAdapter();

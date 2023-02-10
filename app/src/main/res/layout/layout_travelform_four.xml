@@ -86,7 +86,8 @@
                 android:layout_margin="@dimen/padding_4dp"
                 android:layout_marginTop="@dimen/padding_4dp"
                 android:layout_weight="1"
-                android:gravity="start|center" />
+                android:gravity="start|center"
+                android:contentDescription="@string/app_name"/>
 
             <androidx.appcompat.widget.AppCompatSpinner
                 style="@style/onboardspinner"
@@ -96,7 +97,8 @@
                 android:layout_margin="@dimen/padding_4dp"
                 android:layout_marginTop="@dimen/padding_4dp"
                 android:layout_weight="1"
-                android:gravity="start|center" />
+                android:gravity="start|center"
+                android:contentDescription="@string/app_name"/>
         </LinearLayout>
     </LinearLayout>
 
@@ -121,6 +123,7 @@
             android:layout_marginStart="@dimen/padding_4dp"
             android:fontFamily="@font/sfuitext_regular"
             android:hint="@string/modeof_transport"
+            android:minHeight="48dp"
             android:textColor="@color/default_text_color"
             android:textColorHint="@color/default_text_color"
             android:textSize="@dimen/text_size_12sp" />
@@ -131,7 +134,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/padding_4dp"
         android:orientation="horizontal"
-        android:weightSum="2">
+        android:weightSum="2"
+        android:baselineAligned="false">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -180,7 +184,9 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="@dimen/padding_6dp"
-                android:gravity="start|center" />
+                android:contentDescription="@string/app_name"
+                android:gravity="start|center"
+                android:minHeight="48dp" />
         </LinearLayout>
     </LinearLayout>
 

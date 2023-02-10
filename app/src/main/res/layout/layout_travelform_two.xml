@@ -30,12 +30,14 @@
 
             <androidx.appcompat.widget.AppCompatSpinner
                 android:id="@+id/spinner_transport"
+                style="@style/onboardspinner"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:layout_marginTop="@dimen/padding_4dp"
+                android:contentDescription="@string/app_name"
                 android:gravity="start|center"
-                style="@style/onboardspinner"
-                android:layout_marginTop="@dimen/padding_4dp"/>
+                android:minHeight="48dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -58,11 +60,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/airlines_name"
-                android:singleLine="true"
                 android:imeOptions="actionNext"
-                android:textColorHint="@color/default_text_color"
+                android:minHeight="48dp"
+                android:singleLine="true"
                 android:textColor="@color/default_text_color"
-                android:textSize="@dimen/text_size_12sp"/>
+                android:textColorHint="@color/default_text_color"
+                android:textSize="@dimen/text_size_12sp" />
         </LinearLayout>
     </LinearLayout>
 
@@ -92,11 +95,13 @@
 
             <androidx.appcompat.widget.AppCompatSpinner
                 android:id="@+id/spinner_departure_country"
+                style="@style/onboardspinner"
                 android:layout_width="match_parent"
-                android:layout_gravity="center"
-                android:gravity="start|center"
                 android:layout_height="wrap_content"
-                style="@style/onboardspinner" />
+                android:layout_gravity="center"
+                android:contentDescription="@string/app_name"
+                android:gravity="start|center"
+                android:minHeight="48dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -117,11 +122,13 @@
 
             <androidx.appcompat.widget.AppCompatSpinner
                 android:id="@+id/spinner_departure_city"
+                style="@style/onboardspinner"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:contentDescription="@string/app_name"
                 android:gravity="start|center"
-                style="@style/onboardspinner" />
+                android:minHeight="48dp" />
         </LinearLayout>
 
     </LinearLayout>
@@ -154,13 +161,14 @@
                 android:id="@+id/et_departure_date"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/Dateof_birth"
                 android:layout_gravity="center"
-                android:gravity="start|center"
-                android:textSize="@dimen/text_size_12sp"
-                android:paddingEnd="@dimen/padding_4dp"
                 android:drawableEnd="@drawable/ic_calender"
-                android:drawablePadding="@dimen/padding_4dp"/>
+                android:drawablePadding="@dimen/padding_4dp"
+                android:gravity="start|center"
+                android:hint="@string/Dateof_birth"
+                android:minHeight="48dp"
+                android:paddingEnd="@dimen/padding_4dp"
+                android:textSize="@dimen/text_size_12sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -181,12 +189,14 @@
 
             <androidx.appcompat.widget.AppCompatSpinner
                 android:id="@+id/spinner_departure_time"
+                style="@style/onboardspinner"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:gravity="start|center"
                 android:layout_marginTop="@dimen/padding_6dp"
-                style="@style/onboardspinner" />
+                android:contentDescription="@string/app_name"
+                android:gravity="start|center"
+                android:minHeight="48dp" />
         </LinearLayout>
     </LinearLayout>
 
@@ -258,16 +268,17 @@
             android:layout_width="@dimen/padding_50dp"
             android:layout_height="wrap_content"
             android:layout_gravity="start|center"
-            android:gravity="start|center"
             android:layout_marginStart="@dimen/padding_6dp"
+            android:layout_marginTop="@dimen/padding_4dp"
+            android:layout_marginBottom="@dimen/padding_4dp"
             android:fontFamily="@font/sfuitext_regular"
+            android:gravity="start|center"
             android:imeOptions="actionNext"
             android:inputType="number"
             android:minLines="1"
             android:singleLine="true"
             android:textSize="@dimen/text_size_12sp"
-            android:layout_marginTop="@dimen/padding_4dp"
-            android:layout_marginBottom="@dimen/padding_4dp"/>
+            android:importantForAutofill="no" />
     </LinearLayout>
 
 

@@ -35,8 +35,7 @@ public class StudentUpdateActivity extends BaseActivity {
         tv_student_describe = findViewById(R.id.tv_student_describe);
         rv_service_updates = findViewById(R.id.rv_service_updates);
         heading_text = findViewById(R.id.heading_text);
-
-        heading_text.setText("Student Service Update");
+        heading_text.setText(R.string.student_service_update);
 
         //set data to adapter
         setDataToAdapter();

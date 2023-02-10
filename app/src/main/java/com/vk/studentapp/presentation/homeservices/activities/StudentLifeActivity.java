@@ -33,9 +33,7 @@ public class StudentLifeActivity extends BaseActivity {
         mContext=this;
         header_text=findViewById(R.id.heading_text);
         rv_student_life=findViewById(R.id.rv_student_life);
-
-        header_text.setText("Student Life at Campus");
-
+        header_text.setText(R.string.student_life_campus);
         //set data to adapter
         setDataToAdapter();
     }

@@ -3,6 +3,7 @@ package com.vk.studentapp.presentation.boarding.activities;
 import android.os.Bundle;
 import android.view.View;
 
+import androidx.appcompat.widget.AppCompatTextView;
 import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -33,13 +34,14 @@ public class UniversityBoardingAct extends BaseActivity {
     protected int setLayoutResource() {
         return R.layout.activity_university_boarding;
     }
-
+    AppCompatTextView heading_text;
     @Override
     protected void initGUI(Bundle savedInstanceState) {
+        heading_text = findViewById(R.id.heading_text);
         fab_next = findViewById(R.id.fab_next);
         viewPager = findViewById(R.id.on_boarding_viewpager);
         stepView = findViewById(R.id.step_view);
-
+        heading_text.setText(R.string.text_on_boarding);
         List<String> stepList = new ArrayList<>(Arrays.asList(stepTextArray));
         stepView.setSteps(stepList);
 

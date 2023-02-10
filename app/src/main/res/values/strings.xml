@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Student App</string>
+    <string name="app_name">StudentMobileApp</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -12,7 +12,7 @@
 
 
 
-    <string name="text_splash">Welcome to NeoApp</string>
+    <string name="text_splash">Welcome to Student University App</string>
 
     <string name="error_internet_unavailable">Internet is not available, Please cross check your internet connectivity and try again</string>
     <string name="retry">Retry</string>
@@ -39,6 +39,7 @@
     <string name="api_auth_client_key">363481084322-0chqklidi5f4i9g0iuoglab3qsds8p92.apps.googleusercontent.com</string>
 
 
+    <string name="text_on_boarding">University On Boarding</string>
     <string name="text_terms_conditions">Terms and Conditions</string>
     <string name="text_isolation_personal_space">Isolation at Personal Space</string>
     <string name="text_isolation_university_space">Isolation at University Space</string>
@@ -47,6 +48,11 @@
     <string name="text_chat">Chat</string>
     <string name="text_support">Support</string>
     <string name="text_profile">Profile</string>
+
+    <string name="student_service_update">Student Services Update</string>
+    <string name="health_safety_measure">Health and Safety Measures</string>
+    <string name="latest_news_update">Latest News &amp; Update</string>
+    <string name="student_life_campus">Student Life at Campus</string>
 
     <string name="address">27 King’s College Circle,\nToronto ON M5S 1A1 \nToronto Ontario</string>
     <string name="know_more">KNOW MORE</string>

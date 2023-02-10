@@ -155,7 +155,7 @@
             <com.vk.studentapp.custom.NonSwipeableViewPager
                 android:id="@+id/pager"
                 android:layout_width="match_parent"
-                android:layout_height="500dp" />
+                android:layout_height="550dp" />
 
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>

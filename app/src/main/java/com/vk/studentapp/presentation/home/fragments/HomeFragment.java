@@ -120,10 +120,10 @@ public class HomeFragment extends Fragment {
         home_grid_list.addItemDecoration(new SpacesItemDecoration(0));
 
         List<HomeGrid> homeGridList = new ArrayList<>();
-        homeGridList.add(new HomeGrid(getResources().getDrawable(R.drawable.ic_student_services), "Student Services Update"));
-        homeGridList.add(new HomeGrid(getResources().getDrawable(R.drawable.ic_health_safety),"Health and Safety Measures"));
-        homeGridList.add(new HomeGrid(getResources().getDrawable(R.drawable.ic_latest_update),"Latest News & Update"));
-        homeGridList.add(new HomeGrid(getResources().getDrawable(R.drawable.ic_student_life),"Student Life at Campus"));
+        homeGridList.add(new HomeGrid(getResources().getDrawable(R.drawable.ic_student_services), getResources().getString(R.string.student_service_update)));
+        homeGridList.add(new HomeGrid(getResources().getDrawable(R.drawable.ic_health_safety), getResources().getString(R.string.health_safety_measure)));
+        homeGridList.add(new HomeGrid(getResources().getDrawable(R.drawable.ic_latest_update), getResources().getString(R.string.latest_news_update)));
+        homeGridList.add(new HomeGrid(getResources().getDrawable(R.drawable.ic_student_life), getResources().getString(R.string.student_life_campus)));
 
         HomeGridAdapter homeGridAdapter = new HomeGridAdapter(getActivity(), homeGridList, new HomeGridAdapter.OnItemViewListener() {
             @Override
